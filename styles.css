@@ -1,0 +1,95 @@
+:root {
+  --cor1: #d5bdaf;
+  --cor2: #bbb0a8;
+  --cor3: #e5cdb0;
+  --cor4: #c2b79b;
+
+  --cor5: #665e52;
+  --cor5: #000000;
+  --cor6: #000000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cor3);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--cor1);
+  height: 100px;
+}
+
+nav {
+  background-color: var(--cor2);
+  height: 40px;
+  text-align: center;
+}
+
+.menu {
+  position: relative;
+  top: 7px;
+  font-size: 23px;
+  margin-left: 20px;
+  padding: 10px;
+  color: var(--cor5);
+  text-decoration: 0;
+}
+
+.menu:hover {
+  color: var(--cor3);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 35px;
+  color: var(--cor6);
+}
+
+.principal {
+  text-align: center;
+  margin: 50px;
+  font-size: 25px;
+  min-height: 100vh;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.textorodape {
+  position: relative;
+  top: 90px;
+}
+
+.card {
+  display: inline-block;
+  margin: 90px;
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 20px;
+  height: 300px;
+  width: 250px;
+}
+
+.imgcard {
+  position: relative;
+  top: 20px;
+  height: 200px;
+}
+
+.textocard {
+  position: relative;
+  top: 40px;
+  color: var(--cor5);
+}
+
